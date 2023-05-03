@@ -86,7 +86,7 @@ func(c echo.Context) error {
 
 ### JSON Pretty
 
-`Context#JSONPretty(code int, i interface{}, indent string)` can be used to send
+`Context#JSONPretty(code int, i interface{}, indent string)` can be used to a send
 a JSON response which is pretty printed based on indent, which could be spaces or tabs.
 
 Example below sends a pretty print JSON indented with spaces:
